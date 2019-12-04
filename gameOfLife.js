@@ -52,12 +52,12 @@ function updateGrid() { //one iteration of the updated grid
             var neighbourCells = 0;
             //calculate total number of neighbouring cells. diagram in additional documentation
             neighbourCells += grid[i - 1][j - 1]; //left up
-            neighbourCells += grid[i - 1][j]; //center up
+            neighbourCells += grid[i - 1][j]; //up
             neighbourCells += grid[i - 1][j + 1]; //right up
             neighbourCells += grid[i][j - 1]; //left
             neighbourCells += grid[i][j + 1]; //right
             neighbourCells += grid[i + 1][j - 1]; //left down
-            neighbourCells += grid[i + 1][j]; //center down
+            neighbourCells += grid[i + 1][j]; //down
             neighbourCells += grid[i + 1][j + 1]; //right down
 
             //apply the rules to each cell
