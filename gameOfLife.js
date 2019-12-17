@@ -1,7 +1,7 @@
 var rows = 500;
 var cols = 500;
 var grid = createArray(rows);
-var newGrid = createArray(cols);
+var newGrid = createArray(rows);
 var c = document.getElementById("Canvas");
 var ctx = c.getContext("2d");
 ctx.fillStyle = "#093993";
